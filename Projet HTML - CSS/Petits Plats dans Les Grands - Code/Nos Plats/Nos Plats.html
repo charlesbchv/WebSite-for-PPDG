@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nos Plats - Petit Plats dans Les Grands</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="images/—Pngtree—hand-painted chef hat_202493.png ">
+</head>
+<body>
+
+        <div class = "container">
+            <div class = "navbar">
+                <div class="logo">
+                    <a href="../Accueil/index.html"><img src="images/—Pngtree—hand-painted chef hat_202493.png" alt="Logo de Petits Plats dans Les Grands"></a>
+                </div>  
+                <nav>
+                    <ul id = "MenuItems">
+                        <li><a href="../Accueil/index.html">Accueil</a></li>
+                        <li><a href="../Nos Plats/Nos Plats.html">Nos Plats</a></li>
+                        <li><a href="../Je commande/index.html">Je commande</a></li>
+                        <li><a href="../Je découvre/Jed.html">Je découvre</a></li>
+                        <li><a href="../Qui sommes-nous/Jed.html">Qui sommes-nous?</a></li>
+                        <li><a href="../Contactez-nous/Contactez-nous.html">Contactez-nous</a></li>
+                    </ul>
+                </nav>
+                <img src="images/menu.png" class="menu_icon" onclick="menutoggle()" alt="Menu Burger">
+            </div>
+        </div>
+        
+
+
+<!---Nos Plats ---->
+    <h2 class="title" id="bigtitle">Mais qu’est-ce qu’ils mijotent, en ce moment au labo ?</h2> 
+    <h5 id="Description">Découvrez ce que nos chefs vous ont concocté ces jours-ci...</h5>
+    <!--Entréess-->
+    <div class="small-container">
+        <h2 class="title">Nos Entrées</h2> 
+        <div class="row"> 
+            <div class="col_4">
+                <img src="images/Entrée-1.jpeg"> 
+                <h4>Beignets français</h4> 
+                <div class="rating"> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                </div> 
+                <p>5.00 €</p> 
+            </div>
+            <div class="col_4">
+                <img src="images/Entrée-2.jpeg"> 
+                <h4>Entrée mexicaine</h4> 
+                <div class="rating"> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star-o"></i> 
+                </div> 
+                <p>3.10 €</p> 
+            </div>
+        </div>
+    </div>
+
+    <!--Plats-->
+    <div class="small-container">
+        <h2 class="title">Nos Plats</h2> 
+        <div class="row"> 
+            <div class="col_4">
+                <img src="images/Plat 1.jpg"> 
+                <h4>Conchiglionis aux légumes confits & oeuf poché, cantal</h4> 
+                <div class="rating"> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star-o"></i> 
+                </div> 
+                <p>7.99 €</p> 
+            </div>
+            <div class="col_4">
+                <img src="images/Plat 2.jpg"> 
+                <h4>Bavette de boeuf accompagné de pommes de terre mitrailles</h4> 
+                <div class="rating"> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star-half-o"></i> 
+                </div> 
+                <p>9.99 €</p> 
+            </div>
+        </div>
+    </div>
+
+    <!--Desserts-->
+    <div class="small-container">
+        <h2 class="title">Nos desserts</h2> 
+        <div class="row"> 
+            <div class="col_4">
+                <img src="images/Dessert 1.jpg"> 
+                <h4>Entremet au chocolat</h4> 
+                <div class="rating"> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star-half-o"></i> 
+                </div> 
+                <p>4.99 €</p> 
+            </div>
+            <div class="col_4">
+                <img src="images/Dessert 2.jpg"> 
+                <h4>Mini fondant à la mangue</h4> 
+                <div class="rating"> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star-o"></i> 
+                </div> 
+                <p>3.99 €</p> 
+            </div>
+        </div>
+    </div>
+
+
+    <!--Menu végétarien-->
+    <div class="veg">
+        <div class="small-container">
+            <h2 class="title">Menu végétarien</h2> 
+            <div class="row"> 
+                <div class="col-4">
+                    <img src="images/Entrée veg.jpeg"> 
+                    <h4>Salade de lentilles végétarienne</h4> 
+                    <div class="rating"> 
+                        <i class="fa fa-star"></i> 
+                        <i class="fa fa-star"></i> 
+                        <i class="fa fa-star"></i> 
+                        <i class="fa fa-star"></i> 
+                        <i class="fa fa-star-half-o"></i> 
+                    </div> 
+                    <p>3.99 €</p> 
+                </div>
+                <div class="col-4">
+                    <img src="images/Plat veg.jpeg"> 
+                    <h4>Biryani végétarien</h4> 
+                    <div class="rating"> 
+                        <i class="fa fa-star"></i> 
+                        <i class="fa fa-star"></i> 
+                        <i class="fa fa-star"></i> 
+                        <i class="fa fa-star"></i> 
+                        <i class="fa fa-star"></i> 
+                    </div> 
+                    <p>8.99 €</p> 
+                </div>
+                <div class="col-4">
+                    <img src="images/Dessert veg.jpg"> 
+                    <h4>Barres croustillantes au céréales</h4> 
+                    <div class="rating"> 
+                        <i class="fa fa-star"></i> 
+                        <i class="fa fa-star"></i> 
+                        <i class="fa fa-star"></i> 
+                        <i class="fa fa-star"></i> 
+                        <i class="fa fa-star-half-o"></i> 
+                    </div> 
+                    <p>2.99 €</p> 
+                </div>
+                
+            </div>
+        </div>
+        <a href="../Je commande/index.html" class = "btn">Je commande</a>
+    </div>    
+    
+
+<!--footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Télécharger notre application</h3>
+                    <p>Disponible sur les systèmes Android et IOS.</p>
+                    <div class="app-logo">
+                        <a href="https://www.apple.com/fr/ios/app-store/" target="_blank"><img src="images/play-store.png" alt="Lien vers le Google Play Store"></a>
+                        <a href="https://play.google.com/store?hl=fr&gl=US" target="_blank"><img src="images/app-store.png" alt="Lien vers l'App Store"></a>
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/Logo-Blanc.png" alt="Logo de Petit Plat dans Les Grands en blanc">
+                    <p>
+                        Notre but est de fournir un service basé sur la
+                        commande et la livraison en point de retrait en un clic.
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Liens utiles</h3>
+                    <ul>
+                        <li><a href="../Accueil/index.html">Accueil</a></li>
+                        <li><a href="../Nos Plats/Nos Plats.html">Nos Plats</a></li>
+                        <li><a href="../Je commande/index.html">Je commande</a></li>
+                        <li><a href="../Je découvre/Jed.html">Je découvre</a></li>
+                        <li><a href="../Qui sommes-nous/Jed.html">Qui sommes-nous?</a></li>
+                        <li><a href="../Contactez-nous/Contactez-nous.html">Contactez-nous</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Nous suivre</h3>
+                    <ul>
+                        <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                        <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                        <li><a href="http://youtube.com/" target="_blank">Youtube</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2020 - Petits Plats dans Les Grands</p>
+        </div>
+    </div>
+
+<!---Java Script-->
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if (MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "250px";
+                }
+            else
+            {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+
+
+    </script>
+</body>
+</html>

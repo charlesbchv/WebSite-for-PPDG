@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Je commande - Petit Plats dans Les Grands</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="images/—Pngtree—hand-painted chef hat_202493.png ">
+</head>
+<body>
+    <div class="header">
+        <div class = "container">
+            <div class = "navbar">
+                <div class="logo">
+                    <a href="../Accueil/index.html"><img src="images/—Pngtree—hand-painted chef hat_202493.png" alt="Logo de Petits Plats dans Les Grands"></a>
+                </div>  
+                <nav>
+                    <ul id = "MenuItems">
+                        <li><a href="../Accueil/index.html">Accueil</a></li>
+                        <li><a href="../Nos Plats/Nos Plats.html">Nos Plats</a></li>
+                        <li><a href="../Je commande/index.html">Je commande</a></li>
+                        <li><a href="../Je découvre/Jed.html">Je découvre</a></li>
+                        <li><a href="../Qui sommes-nous/Jed.html">Qui sommes-nous?</a></li>
+                        <li><a href="../Contactez-nous/Contactez-nous.html">Contactez-nous</a></li>
+                    </ul>
+                </nav>
+                <img src="images/menu.png" class="menu_icon" onclick="menutoggle()" alt="Menu Burger">
+            </div>
+
+                <div class="row">
+                    <div class="col_2">
+                        <h1>Comment faire pour commander?</h1>
+                        <p><br>
+                            &#8226; &#160;  Choisissez les plats que vous voulez et leurs quantité<br>
+                            &#8226; &#160;  Séléctionnez un point de retrait<br>
+                            &#8226; &#160;  Cliquez sur le lien en bas de page pour régler votre commande<br>
+                            
+                            
+                        </p>
+                        
+                    </div>
+                    <div class="col_2">
+                        <img src="images/Panier.png" id='hed'>
+                    </div>
+                </div>
+            
+        </div>
+        <div class="titre"><h4 style="color: black;">Pour les entreprises, merci de nous contacter sur contact.entreprises@ppdlg.fr</h4></div>
+    </div>
+
+<!--Cart items details-->
+    <div class="small-container" id= "cart_page" >
+        <table>
+            <tr>
+                <th>Plat</th>
+                <th>Quantité</th>
+                <th>Total</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="images">
+                        <img src="images/Entrée-1.jpeg" alt="Entrée">
+                        <div>
+                            <p>Entrée : Beignets français</p>
+                            <div class="rating"> 
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i> 
+                            </div> 
+                            <small>Prix : 5.00 €</small>
+                            <br>
+                            
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="0"></td>
+                <td>0.00 €</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="images">
+                        <img src="images/Entrée-2.jpeg" alt="Entrée">
+                        <div>
+                            <p>Entrée :  Entrée méxicaine</p>
+                            <div class="rating"> 
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star-o"></i> 
+                            </div> 
+                            <small>Prix : 3.10 €</small>
+                            <br>
+                            
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>3.10 €</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="images">
+                        <img src="images/Plat 1.jpg" alt="Plat">
+                        <div>
+                            <p>Plat : Conchiglionis aux légumes confits & oeuf poché, cantal</p>
+                            <div class="rating"> 
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star-o"></i> 
+                            </div> 
+                            <small>Prix : 7.99 €</small>
+                            <br>
+                            
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>7.99 €</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="images">
+                        <img src="images/Plat 2.jpg" alt="Plat">
+                        <div>
+                            <p>Plat : Bavette de boeuf accompagné de pommes de terre mitrailles</p>
+                            <div class="rating"> 
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star-half-o"></i> 
+                            </div> 
+                            <small>Prix : 9.99 €</small>
+                            <br>
+                            
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="0"></td>
+                <td>0.00 €</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="images">
+                        <img src="images/Dessert 1.jpg" alt="Dessert">
+                        <div>
+                            <p>Dessert : Entremet au chocolat </p>
+                            <div class="rating"> 
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star-half-o"></i> 
+                            </div> 
+                            <small>Prix : 4.99 €</small>
+                            <br>
+                            
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="0"></td>
+                <td>0.00 €</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="images">
+                        <img src="images/Dessert 2.jpg" alt="Dessert">
+                        <div>
+                            <p>Dessert : Mini fondant à la mangue</p>
+                            <div class="rating"> 
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star-o"></i> 
+                            </div> 
+                            <small>Prix : 3.99 €</small>
+                            <br>
+                            
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>3.99 €</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="images">
+                        <img src="images/Menu veg.png" alt="Menu végétarien">
+                        <div>
+                            <p>Menu végétarien</p>
+                            <div class="rating"> 
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star"></i> 
+                                <i class="fa fa-star-half-o"></i> 
+                            </div> 
+                            <small>Prix : 15.97 €</small>
+                            <br>
+                            
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="0"></td>
+                <td>0.00 €</td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <div class="prix-total">
+            <table>
+                <tr>
+                    <td>Total</td>
+                    <td>15.08 €</td>
+                </tr>
+                
+                </tr>
+            </table>
+        </div>
+
+
+    </div>
+    
+    <div class="producteurs">
+        <h2 class="title">Moyens de paiement</h2>
+        <div class="small-container">
+
+            <div class="row">
+                <div class="col_5">
+                    <img src="images/Visa.jpg" alt="Cartes Visa">
+                </div>
+                <div class="col_5">
+                    <img src="images/Mastercard.png" alt="Cartes Master Card">
+                </div>
+                <div class="col_5">
+                    <img src="images/American Express.png" alt="Cartes American Express">
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    <div id="retrait">
+        <h2 class="title">Saisissez vos informations</h2>
+        
+
+        <select id="point-de-retrait">
+            <option value="">--Votre point de retrait--</option>
+            <option value="">Place de la gare à Ermont</option>
+            <option value="">Saint-Gratien</option>
+            <option value="">Enghien</option>
+            <option value="">Epinay</option>
+            <option value="">Montmorency</option>
+        </select>
+        <br>
+        
+        <input placeholder="Date de retrait: " class="input-box" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="datefield" >
+        <br>
+        <input class= "input-box" type="number" placeholder="Numéro de carte"><br>
+        <input placeholder="Date d'expiration: " class="input-box" type="text" onfocus="(this.type='month')" onblur="(this.type='text')" id="date" ><br>
+        <input class= "input-box" type="number" placeholder="Code de sécurité"> <br>
+        
+        <script>
+            var today = new Date();
+            var dd = today.getDate()+2;
+            var mm = today.getMonth()+1; //January is 0!
+            var yyyy = today.getFullYear();
+            if(dd<10){
+                    dd='0'+dd
+                } 
+                if(mm<10){
+                    mm='0'+mm
+                } 
+
+            today = yyyy+'-'+mm+'-'+dd;
+            document.getElementById("datefield").setAttribute("min", today);
+            var today = new Date();
+            var dd = today.getDate()+2;
+            var mm = today.getMonth()+1; //January is 0!
+            var yyyy = today.getFullYear();
+            if(dd<10){
+                    dd='0'+dd
+                } 
+                if(mm<10){
+                    mm='0'+mm
+                } 
+
+            today = yyyy+'-'+mm+'-'+dd;
+            document.getElementById("datefield").setAttribute("min", today);
+        </script>
+        <div id="paiement" class="btn">
+            <a href="../paiement/index.html">Confirmer et payer</a>
+        </div>
+
+    </div>
+
+    
+
+    
+
+
+<!--footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Télécharger notre application</h3>
+                    <p>Disponible sur les systèmes Android et IOS.</p>
+                    <div class="app-logo">
+                        <a href="https://www.apple.com/fr/ios/app-store/" target="_blank"><img src="images/play-store.png" alt="Lien vers le Google Play Store"></a>
+                        <a href="https://play.google.com/store?hl=fr&gl=US" target="_blank"><img src="images/app-store.png" alt="Lien vers l'App Store"></a>
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/Logo-Blanc.png" alt="Logo de Petit Plat dans Les Grands en blanc">
+                    <p>
+                        Notre but est de fournir un service basé sur la
+                        commande et la livraison en point de retrait en un clic.
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Liens utiles</h3>
+                    <ul>
+                        <li><a href="../Accueil/index.html">Accueil</a></li>
+                        <li><a href="../Nos Plats/Nos Plats.html">Nos Plats</a></li>
+                        <li><a href="../Je commande/index.html">Je commande</a></li>
+                        <li><a href="../Je découvre/Jed.html">Je découvre</a></li>
+                        <li><a href="../Qui sommes-nous/Jed.html">Qui sommes-nous?</a></li>
+                        <li><a href="../Contactez-nous/Contactez-nous.html">Contactez-nous</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Nous suivre</h3>
+                    <ul>
+                        <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                        <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                        <li><a href="http://youtube.com/" target="_blank">Youtube</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2020 - Petits Plats dans Les Grands</p>
+        </div>
+    </div>
+
+<!---Java Script-->
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if (MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "250px";
+                }
+            else
+            {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+
+
+    </script>
+</body>
+</html>

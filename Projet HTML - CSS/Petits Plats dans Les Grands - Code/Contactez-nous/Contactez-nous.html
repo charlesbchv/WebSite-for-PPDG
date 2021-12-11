@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactez-nous - Petits Plats dans les grands</title>
+    <link rel="stylesheet" href="styler.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="images/—Pngtree—hand-painted chef hat_202493.png ">
+   
+</head>
+<body>
+    <div class="header">
+        <div class = "container">
+            <div class = "navbar">
+                <div class="logo">
+                    <a href="../Accueil/index.html"><img src="images/—Pngtree—hand-painted chef hat_202493.png" alt="Logo de Petits Plats dans Les Grands"></a>
+                </div>  
+                <nav>
+                    <ul id = "MenuItems">
+                        <li><a href="../Accueil/index.html">Accueil</a></li>
+                        <li><a href="../Nos Plats/Nos Plats.html">Nos Plats</a></li>
+                        <li><a href="../Je commande/index.html">Je commande</a></li>
+                        <li><a href="../Je découvre/Jed.html">Je découvre</a></li>
+                        <li><a href="../Qui sommes-nous/Jed.html">Qui sommes-nous?</a></li>
+                        <li><a href="../Contactez-nous/Contactez-nous.html">Contactez-nous</a></li>
+                    </ul>
+                </nav>
+                <img src="images/menu.png" class="menu_icon" onclick="menutoggle()" alt="Menu Burger">
+            </div>
+
+                <div class="row">
+                    <div class="col_2">
+                        <h1>Vous avez une question ?</h1>
+                        <p><br>
+                            
+                            Vous souhaitez avoir plus d’informations sur nos solutions de restauration 
+                            d’entreprise ? Remplissez le formulaire ci-dessous, un membre de l’équipe vous 
+                            recontactera !
+                        </p>
+                    </div>
+                    <div class="col_2">
+                        <div class="sign-up-form">
+                            <h1>Contactez-nous</h1>
+                            
+                            <form>
+                                <input type="text" class="input-box" placeholder="Prénom">
+                                
+                                
+                                <input type="email" class="input-box" placeholder="Email">
+                                <input type="text" class="input-box" placeholder="Numéro de tèléphone">
+                                <textarea  class="input-box"rows="5" cols="33"placeholder="Votre message"></textarea>
+                                <a href="../envoye/index.html"><button type="button" class="sign-btn">Envoyer</button></a>
+                                
+                            
+                            </form>
+                    
+                    
+                    
+                    
+                        </div>
+                    </div>
+                </div>
+            
+        </div>
+        
+    
+    
+<!--footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Télécharger notre application</h3>
+                    <p>Disponible sur les systèmes Android et IOS.</p>
+                    <div class="app-logo">
+                        <a href="https://www.apple.com/fr/ios/app-store/" target="_blank"><img src="images/play-store.png" alt="Lien vers le Google Play Store"></a>
+                        <a href="https://play.google.com/store?hl=fr&gl=US" target="_blank"><img src="images/app-store.png" alt="Lien vers l'App Store"></a>
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/Logo-Blanc.png" alt="Logo de Petit Plat dans Les Grands en blanc">
+                    <p>
+                        Notre but est de fournir un service basé sur la
+                        commande et la livraison en point de retrait en un clic.
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Liens utiles</h3>
+                    <ul>
+                        <li><a href="../Accueil/index.html">Accueil</a></li>
+                        <li><a href="../Nos Plats/Nos Plats.html">Nos Plats</a></li>
+                        <li><a href="../Je commande/index.html">Je commande</a></li>
+                        <li><a href="../Je découvre/Jed.html">Je découvre</a></li>
+                        <li><a href="../Qui sommes-nous/Jed.html">Qui sommes-nous?</a></li>
+                        <li><a href="../Contactez-nous/Contactez-nous.html">Contactez-nous</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Nous suivre</h3>
+                    <ul>
+                        <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                        <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                        <li><a href="http://youtube.com/" target="_blank">Youtube</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2020 - Petits Plats dans Les Grands</p>
+        </div>
+    </div>
+
+<!---Java Script-->
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if (MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "250px";
+                }
+            else
+            {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+
+
+    </script>
+</body>
+</html>
